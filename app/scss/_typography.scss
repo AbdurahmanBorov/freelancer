@@ -1,0 +1,43 @@
+h1, h2, h3, h4, h5 {
+    font-weight: 700;
+    color: $text;
+}
+
+h1 {
+    font-size: 56px;
+    line-height: 74px;
+}
+
+h2 {
+    font-size: 40px;
+    line-height: 60px;
+
+    @media (max-width: 575.98px) {
+        font-size: 28px;
+        line-height: 32px;
+    }
+}
+
+h3 {
+    font-size: 24px;
+    line-height: 28px;
+}
+
+h4 {
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.btn {
+	padding: 16px 32px;
+	border: 2px solid #C4C4C4;
+	color: #fff;
+	border-radius: 87px;
+	background: #FC3867;
+    transition: 0.3s all;
+
+    &:hover {
+        // transition: 0.3s all;
+        transform: scale(1.05);
+    }
+}
